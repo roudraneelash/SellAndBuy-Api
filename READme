@@ -1,0 +1,8 @@
+1)/sellProduct -> GET Method -> This route should fetch all the data from the the sellbuys collection. If any query is passed, then the
+data should be fetched based on that.
+Sample Request
+/sellProduct - should return all data
+/sellProduct?product="Laptop" - should return the data which has productName as "Laptop". Here the product name can differ.
+/sellProduct?sortBy="lowerCostPrice" - should sort the data from lower to higher cost price of the product.
+/sellProduct?sortBy="higherCostPrice" - should sort the data from higher to lower cost price of the product. /sellProduct?sortBy="lowerSoldPrice" - should sort the data from lower to higher sold price of the product.
+/sellProduct?sortBy="higherSoldPrice" - should sort the data from higher to lower sold price of the product
